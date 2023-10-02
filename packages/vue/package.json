@@ -1,6 +1,6 @@
 {
   "name": "@saurssaurav/pagination-js-vue",
-  "version": "0.0.0",
+  "version": "0.0.0-dev",
   "description": "Simple pagination package for vue js",
   "author": "isaurssaurav <saurssaurav33@gmail.com>",
   "homepage": "",
@@ -19,6 +19,6 @@
     "test": "node ./__tests__/vue.test.js"
   },
   "dependencies": {
-    "@saurssaurav/pagination-js-core": "^0.0.0"
+    "@saurssaurav/pagination-js-core": "^0.0.0-dev"
   }
 }
