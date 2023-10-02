@@ -20,5 +20,6 @@
   },
   "dependencies": {
     "@saurssaurav/pagination-js-core": "^0.0.0-dev"
-  }
+  },
+  "gitHead": "9ff44819f4c63935fc6b9df79d568e3ae36f10d6"
 }

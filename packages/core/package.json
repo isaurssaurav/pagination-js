@@ -17,5 +17,6 @@
   "scripts": {
     "build": "tsc",
     "test": "node ./__tests__/core.test.js"
-  }
+  },
+  "gitHead": "9ff44819f4c63935fc6b9df79d568e3ae36f10d6"
 }
