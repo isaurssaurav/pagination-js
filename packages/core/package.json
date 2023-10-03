@@ -16,7 +16,13 @@
   ],
   "scripts": {
     "build": "tsc",
-    "test": "node ./__tests__/core.test.js"
+    "test": "jest"
   },
-  "gitHead": "9ff44819f4c63935fc6b9df79d568e3ae36f10d6"
+  "gitHead": "9ff44819f4c63935fc6b9df79d568e3ae36f10d6",
+  "devDependencies": {
+    "@types/jest": "^29.5.5",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.1",
+    "typescript": "^5.2.2"
+  }
 }
