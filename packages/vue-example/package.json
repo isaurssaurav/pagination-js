@@ -1,0 +1,23 @@
+{
+  "name": "@saurssaurav/pagination-js-example",
+  "version": "0.0.1-dev.0",
+  "author": "isaurssaurav <saurssaurav33@gmail.com>",
+  "homepage": "",
+  "type": "module",
+  "private": true,
+  "license": "ISC",
+  "scripts": {
+    "dev": "vite"
+  },
+  "dependencies": {
+    "@saurssaurav/pagination-js-vue": "*",
+    "vue": "^3.3.4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.4.0",
+    "typescript": "^5.0.2",
+    "vite": "^4.4.8",
+    "vue-tsc": "^1.8.8"
+  },
+  "gitHead": "9ff44819f4c63935fc6b9df79d568e3ae36f10d6"
+}

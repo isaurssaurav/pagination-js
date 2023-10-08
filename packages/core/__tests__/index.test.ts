@@ -1,7 +1,7 @@
 import { describe } from 'node:test';
 import { getPaginationArray, getPaginationWithEllipsisArray } from '../src/index';
 
-describe('Core pagination logic test', () => {
+describe('Core pagination logic', () => {
   it('should give array of number to show for pagination', () => {
     const paginationArrayWhen1 = getPaginationArray({
       totalPage: 5,
@@ -29,6 +29,7 @@ describe('Core pagination logic test', () => {
       pageSidesToCurrentPage: 1,
       currentPage: 10
     });
+
     expect(paginationWithEllipsis).toEqual([1, 2, '...', 5]);
     expect(paginationWithEllipsis2).toEqual([1, '...', 9, 10, 11, '...', 100]);
   });
