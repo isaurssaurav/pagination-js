@@ -2,7 +2,7 @@
 
 Simple and light weight pagination for vue.
 
-![image](https://raw.githubusercontent.com/isaurssaurav/pagination-js/tree/main/packages/vue/image.png)
+![image](https://raw.githubusercontent.com/isaurssaurav/pagination-js/main/packages/vue/image.png)
 
 ## Installation
 
