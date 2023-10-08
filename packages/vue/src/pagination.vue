@@ -1,6 +1,6 @@
 <template>
   <div class="pagination">
-    <div class="pagination__page" @click="onCurrentPageChange(currentPage - 1)">&lt;</div>
+    <div class="pagination__page pagination__page--first" @click="onCurrentPageChange(currentPage - 1)">&lt;</div>
     <div
       v-for="(pagination, index) in paginationWithEllipsisArray"
       :key="index"

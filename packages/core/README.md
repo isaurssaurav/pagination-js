@@ -1,11 +1,3 @@
-# `core`
+# Pagination Core
 
-> TODO: description
-
-## Usage
-
-```
-const core = require('core');
-
-// TODO: DEMONSTRATE API
-```
+Support package for other pagination library.

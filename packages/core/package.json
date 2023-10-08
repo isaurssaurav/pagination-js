@@ -23,6 +23,7 @@
   ],
   "scripts": {
     "build": "vite build && tsc",
+    "build:watch": "vite build --watch",
     "test": "jest"
   },
   "gitHead": "9ff44819f4c63935fc6b9df79d568e3ae36f10d6",
