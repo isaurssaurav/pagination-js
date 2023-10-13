@@ -41,8 +41,4 @@ const getPaginationWithEllipsisArray = (options: Options): (number | string)[] =
   return paginationWithEllipsisArray;
 };
 
-const testFunction = () =>{
-  console.log("test")
-}
-
 export { getPaginationWithEllipsisArray, getPaginationArray };
