@@ -7,7 +7,7 @@
   ],
   "scripts": {
     "publish": "lerna run build && lerna publish --no-private",
-    "version": "lerna run version",
+    "version": "lerna version --conventional-commits",
     "test": "lerna run test",
     "lint:fix": "prettier . --write"
   },
