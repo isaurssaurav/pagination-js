@@ -7,9 +7,9 @@
   ],
   "scripts": {
     "publish": "lerna run build && lerna publish --no-private",
+    "version": "lerna run version",
     "test": "lerna run test",
-    "lint:fix": "prettier . --write",
-    "version": "lerna run version"
+    "lint:fix": "prettier . --write"
   },
   "devDependencies": {
     "@types/jest": "^29.5.5",
