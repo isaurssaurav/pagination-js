@@ -1,6 +1,6 @@
 {
   "name": "@saurssaurav/pagination-js-react",
-  "version": "2.0.1-dev.0",
+  "version": "2.0.2-dev.0",
   "type": "module",
   "main": "./lib/index.js",
   "module": "./lib/index.umd.cjs",
