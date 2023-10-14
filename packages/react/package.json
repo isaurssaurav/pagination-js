@@ -1,6 +1,6 @@
 {
   "name": "@saurssaurav/pagination-js-react",
-  "version": "2.0.2-dev.0",
+  "version": "2.1.0-dev.0",
   "type": "module",
   "main": "./lib/index.js",
   "module": "./lib/index.umd.cjs",
@@ -20,7 +20,7 @@
     "tsc": "tsc"
   },
   "dependencies": {
-    "@saurssaurav/pagination-js-core": "^2.0.1-dev.0",
+    "@saurssaurav/pagination-js-core": "^2.1.0-dev.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
