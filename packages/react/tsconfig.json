@@ -21,9 +21,8 @@
     "noFallthroughCasesInSwitch": true,
     "outDir": "./lib",
     "declaration": true,
-    "emitDeclarationOnly": true
+    "emitDeclarationOnly": true,
   },
   "include": ["src"],
   "references": [{ "path": "./tsconfig.node.json" }],
-  "exclude": ["src/App.tsx", "src/main.ts"]
 }

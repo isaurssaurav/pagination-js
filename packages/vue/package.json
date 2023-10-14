@@ -8,6 +8,7 @@
   "license": "ISC",
   "main": "./lib/index.js",
   "module": "./lib/index.umd.cjs",
+  "typings": "./lib/index.d.ts",
   "exports": {
     ".": {
       "import": "./lib/index.js",

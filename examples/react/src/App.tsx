@@ -1,13 +1,22 @@
 import { useState } from 'react';
 import './App.css';
-import TestMe from '@saurssaurav/pagination-js-react';
+import PaginationTest from '@saurssaurav/pagination-js-react';
+import '@saurssaurav/pagination-js-core/style.css';
 
 function App() {
-  const [count, setCount] = useState(0);
+  const [currentPage, setCurrentPage] = useState(1);
 
+const onChange = (page:number) => {
+  setCurrentPage(page);
+};
   return (
     <>
-      <TestMe />
+ <PaginationTest
+    totalPage={10}
+    pageSidesToCurrentPage={1}
+    currentPage={currentPage}
+    onChangeCurrentPage={onChange}
+  ></PaginationTest>
     </>
   );
 }
