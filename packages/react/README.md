@@ -1,4 +1,4 @@
-# Pagination Vue
+# Pagination React
 
 Simple and light weight pagination for react.
 
