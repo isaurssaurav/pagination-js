@@ -6,9 +6,10 @@
     "examples/*"
   ],
   "scripts": {
+    "build": "lerna run build",
+    "test": "lerna run test",
     "publish": "lerna run build && lerna publish from-package --no-private",
     "version": "lerna version --conventional-commits",
-    "test": "lerna run test",
     "lint:fix": "prettier . --write"
   },
   "devDependencies": {
